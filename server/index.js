@@ -15,7 +15,7 @@ const products = [
 ];
 
 // Define a route handler for GET requests to /products
-app.get('/products', (req, res) => {
+app.get('/api/v1/products', (req, res) => {
   // Send the list of products as JSON response
   res.json(products);
 });
